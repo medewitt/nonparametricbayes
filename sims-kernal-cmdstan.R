@@ -77,6 +77,7 @@ stan_kernel_cube_fit_model <- cmdstan_model(hh("stan_kernel_cube_code.stan"))
 
 stan_beta_fit_model <- stan_model(hh("stan_beta_code.stan"))
 
+# TODO Move sampling arguments to CMDStanR syntax
 
 ###########################################################
 # Section 2                                               #
